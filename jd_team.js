@@ -3,7 +3,7 @@
 */
 const $ = new Env('开卡活动');
 
-const notify = $.isNode() ? require('./sendNotify') : '';
+
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let configList = ["893e8f30509c45679f04ca55293fc293","cb0880b159574f0ab3400be8fe4fc484"]
