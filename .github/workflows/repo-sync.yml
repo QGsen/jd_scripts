@@ -1,5 +1,6 @@
 name: 同步lxk0301仓库
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'
   watch:
